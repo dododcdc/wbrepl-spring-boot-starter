@@ -4,6 +4,8 @@
 
 该项目将nrepl服务内置到你的springboot工程中，然后你可通过连接nrepl服务来调试你的springboot工程，试想生产环境出现了问题，你想调试生产环境正在运行中的代码，用这个就太方便啦
 
+使用该工具调试程序需要你具备一点 __[clojure](https://clojure.org/index)__ 语言能力
+
 ## 如何使用
 
 ### 添加依赖
