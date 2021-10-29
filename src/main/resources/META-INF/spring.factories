@@ -1,1 +1,1 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.wbrepl.config.WbReplAutoConfigure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=io.github.dododcdc.config.WbReplAutoConfigure

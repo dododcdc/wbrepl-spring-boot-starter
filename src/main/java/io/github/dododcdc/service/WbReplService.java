@@ -1,9 +1,10 @@
-package com.wbrepl.service;
+package io.github.dododcdc.service;
 
 import clojure.java.api.Clojure;
 import clojure.lang.Agent;
 import clojure.lang.IFn;
-import com.wbrepl.entity.WbParam;
+
+import io.github.dododcdc.entity.WbParam;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
@@ -13,7 +14,9 @@ import java.io.InputStreamReader;
 public class WbReplService {
 
 
-    private WbParam wbParam;
+
+
+    private WbParam wbParam ;
 
     private IFn symbol = Clojure.var("clojure.core", "symbol");
     private IFn intern = Clojure.var("clojure.core", "intern");

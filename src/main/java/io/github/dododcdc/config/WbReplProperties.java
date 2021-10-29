@@ -1,4 +1,4 @@
-package com.wbrepl.config;
+package io.github.dododcdc.config;
 
 
 import org.springframework.boot.context.properties.ConfigurationProperties;

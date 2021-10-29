@@ -1,4 +1,4 @@
-package com.wbrepl.entity;
+package io.github.dododcdc.entity;
 
 
 import org.springframework.context.ApplicationContext;
@@ -33,32 +33,32 @@ public class WbParam {
     }
 
     public static class  Builder {
-        private static final WbParam wbParam = new WbParam();
+        private static final WbParam WbParam2 = new WbParam();
 
         public Builder() {
         }
 
         public  Builder host(String host) {
-            wbParam.host = host;
+            WbParam2.host = host;
             return this;
         }
         public  Builder port(int port) {
-            wbParam.port = port;
+            WbParam2.port = port;
             return this;
         }
 
         public  Builder applicationContext(ApplicationContext applicationContext) {
-            wbParam.applicationContext = applicationContext;
+            WbParam2.applicationContext = applicationContext;
             return this;
         }
 
         public Builder env(Environment env) {
-            wbParam.env = env;
+            WbParam2.env = env;
             return this;
         }
 
-        public  WbParam build() {
-            return wbParam;
+        public WbParam build() {
+            return WbParam2;
         }
     }
 }

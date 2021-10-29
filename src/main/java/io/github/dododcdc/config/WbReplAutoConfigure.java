@@ -1,7 +1,8 @@
-package com.wbrepl.config;
+package io.github.dododcdc.config;
 
-import com.wbrepl.entity.WbParam;
-import com.wbrepl.service.WbReplService;
+
+import io.github.dododcdc.entity.WbParam;
+import io.github.dododcdc.service.WbReplService;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
