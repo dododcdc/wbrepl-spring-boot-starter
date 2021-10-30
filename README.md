@@ -10,10 +10,15 @@
 
 ### 添加依赖
 
-* 方式一：直接在pom添加发布在中央仓库的依赖
+* 方式一：直接在pom添加发布在中央仓库的依赖或者
+  __[手动下载jar包](https://repo1.maven.org/maven2/io/github/dododcdc/wbrepl-spring-boot-starter/1.0.0/)__
   ```xml
 
-  todo 
+    <dependency>
+          <groupId>com.wbrepl</groupId>
+          <artifactId>wbrepl-spring-boot-starter</artifactId>
+          <version>1.0.0</version>
+    </dependency>
 
   ```
 * 方式二：下载本项目，自己install到本地仓库
@@ -99,6 +104,9 @@
 
 可以看到已经返回阿giao的名字 "giao"，userServiceImpl是我的springboot工程中的bean，你可以替换为你自己工程中的bean名称
 
+测试中使用的bean如下图
+
+![img_2.png](img_2.png)
 
 ### 开始调试
 `(list-beans)` 获取spring容器中所有的bean
