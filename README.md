@@ -10,9 +10,11 @@
 
 ### 添加依赖
 
-* 方式一：直接在pom添加本人发布在中央仓库的依赖(暂时还未发布)
-  ```text
-        todo 
+* 方式一：直接在pom添加发布在中央仓库的依赖
+  ```xml
+
+  todo 
+
   ```
 * 方式二：下载本项目，自己install到本地仓库
     * `git clone git@github.com:dododcdc/wbrepl-spring-boot-starter.git`
