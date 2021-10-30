@@ -125,6 +125,10 @@
 
 请先参考：__[java和clojure交操作](https://clojure.org/reference/java_interop)__ 获取一点灵感
 
+### 结束
+本工程实现参考文章：
+
+
 更漂亮的连接工具请参考：
 * __[cursive](https://cursive-ide.com/userguide/repl.html)__ (本人使用的这个，相当nice)
 
@@ -134,7 +138,10 @@
 
 * __[Cognitect REBL](https://docs.datomic.com/cloud/other-tools/REBL.html)__
 
-
-
+clojure学习相关地址： 
+* __[https://clojure.org/](https://clojure.org/)__
+* __[https://clojuredocs.org/](https://clojuredocs.org/)__
+* __[https://www.braveclojure.com/clojure-for-the-brave-and-true/](https://www.braveclojure.com/clojure-for-the-brave-and-true/)__ 
+* __[https://kimh.github.io/clojure-by-example/#about](https://kimh.github.io/clojure-by-example/#about)__
 
 

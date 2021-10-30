@@ -29,7 +29,7 @@ public class WbReplAutoConfigure {
         this.env = env;
     }
 
-    @Bean(initMethod="start")
+    @Bean
     @ConditionalOnMissingBean
     @ConditionalOnProperty(prefix = "wbrepl", value = "enabled", havingValue = "true")
     WbReplService wbReplService() {
