@@ -128,6 +128,7 @@
 ### 结束
 本工程实现参考文章：
 
+__[https://engineering.telia.no/blog/java-troubleshooting-on-steroids-with-clojure-repl](https://engineering.telia.no/blog/java-troubleshooting-on-steroids-with-clojure-repl)__
 
 更漂亮的连接工具请参考：
 * __[cursive](https://cursive-ide.com/userguide/repl.html)__ (本人使用的这个，相当nice)
