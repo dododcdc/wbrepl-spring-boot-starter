@@ -13,9 +13,15 @@
 * 方式一：直接在pom添加发布在中央仓库的依赖或者
   __[手动下载jar包](https://repo1.maven.org/maven2/io/github/dododcdc/wbrepl-spring-boot-starter/)__
   ```xml
-
+    <repositories>
+        <repository>
+            <id>repl</id>
+            <name>repl wenbin</name>
+            <url>https://repo1.maven.org/maven2/</url>
+        </repository>
+    </repositories>
     <dependency>
-          <groupId>com.wbrepl</groupId>
+          <groupId>io.github.dododcdc</groupId>
           <artifactId>wbrepl-spring-boot-starter</artifactId>
           <version>1.0.1</version>
     </dependency>
@@ -27,7 +33,7 @@
     * 在你自己的springboot工程中pom.xml引入依赖
   ```xml
   <dependency>
-          <groupId>com.wbrepl</groupId>
+          <groupId>io.github.dododcdc</groupId>
           <artifactId>wbrepl-spring-boot-starter</artifactId>
           <version>1.0.1</version>
   </dependency>
