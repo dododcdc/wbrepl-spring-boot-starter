@@ -11,7 +11,7 @@
 ### 添加依赖
 
 * 方式一：直接在pom添加发布在中央仓库的依赖或者
-  __[手动下载jar包](https://repo1.maven.org/maven2/io/github/dododcdc/wbrepl-spring-boot-starter/1.0.0/)__
+  __[手动下载jar包](https://repo1.maven.org/maven2/io/github/dododcdc/wbrepl-spring-boot-starter/)__
   ```xml
 
     <dependency>
