@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## 欢迎欢迎热烈欢迎
 
 You can use the [editor on GitHub](https://github.com/dododcdc/wbrepl-spring-boot-starter/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
