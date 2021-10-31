@@ -77,6 +77,9 @@ __[更好的文档阅读体验](https://dododcdc.github.io/wbrepl-spring-boot-st
 > 提示：配置文件端口不要冲突，wbrepl.enabled一定要设置为true，设置为false时nrepl服务不会启动
 
 ### 启动你的springboot工程
+
+> 如果你前面的步骤没有出错，在你启动你的springboot工程的同时也会启动一个nrepl服务，后续通过连接这个repl服务就可以调用你springbot工程中所有bean的方法
+
 * 本地启动你的工程(配置文件请采用 [ 情况一 ] )
 
   直接用idea启动，或者你打成jar包在本地启动都可以(懂得都懂)
