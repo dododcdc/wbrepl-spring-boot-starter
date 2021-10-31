@@ -35,16 +35,17 @@
 
 * 方式二：下载本项目，自己install到本地仓库
 
-    * `git clone git@github.com:dododcdc/wbrepl-spring-boot-starter.git`
-    * `mvn clean install -Dmaven.test.skip=true`
-    * 在你自己的springboot工程中pom.xml引入依赖
-  ```xml
-  <dependency>
+  * `git clone git@github.com:dododcdc/wbrepl-spring-boot-starter.git`
+  * `mvn clean install -Dmaven.test.skip=true`
+  * 在你自己的springboot工程中pom.xml引入依赖
+
+    ```xml
+    <dependency>
           <groupId>io.github.dododcdc</groupId>
           <artifactId>wbrepl-spring-boot-starter</artifactId>
           <version>1.0.1</version>
-  </dependency>
-  ```
+    </dependency>
+    ```
 
 ### 配置文件
 打开你的工程配置文件application.yml或者application.properties(懂得自然懂)
@@ -102,8 +103,13 @@
 
   示例：
 
-    * 如果你是本地启动的springboot工程：`lein repl :connect 127.0.0.1:55555`
-    * 如果你是将springboot工程部署到远程服务器：`lein repl :connect 172.16.20.44:55555`
+  * 如果你是本地启动的springboot工程：
+
+     `lein repl :connect 127.0.0.1:55555`
+
+  * 如果你是将springboot工程部署到远程服务器：
+  
+    `lein repl :connect 172.16.20.44:55555`
 
   > 注意：host和port一定要和你的配置文件相同
 
