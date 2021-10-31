@@ -24,7 +24,7 @@
   如果jar包下载失败可以尝试在pom.xml中添加
 
   ```xml
-  <repositories>
+    <repositories>
         <repository>
             <id>repl</id>
             <name>repl wenbin</name>
