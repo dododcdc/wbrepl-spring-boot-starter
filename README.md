@@ -76,7 +76,7 @@ __[更好的文档阅读体验](https://dododcdc.github.io/wbrepl-spring-boot-st
 > 提示：配置文件端口不要冲突，wbrepl.enabled一定要设置为true，设置为false时nrepl服务不会启动
 
     
-> 尤其注意： 在配置远程调试时的`wbrepl.host`一定要填写ifconfig显示的IP，即下图2号位置的ip，如果是自己用vmware创建的虚拟机一般1号位置和2号位置的ip都是一样的，但是像我们自己购买的服务器，一般是不一致的
+> 尤其注意： 在配置远程调试时的`wbrepl.host`一定要填写网卡显示的IP，即下图2号位置的ip，如果是自己用vmware创建的虚拟机一般1号位置和2号位置的ip都是一样的，但是像我们自己购买的服务器，一般是不一致的
 
 
 ![img_4.png](img_4.png)
