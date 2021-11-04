@@ -72,7 +72,15 @@ __[更好的文档阅读体验](https://dododcdc.github.io/wbrepl-spring-boot-st
 
       
 
+    
 > 提示：配置文件端口不要冲突，wbrepl.enabled一定要设置为true，设置为false时nrepl服务不会启动
+
+    
+> 尤其注意： 在配置远程调试时的`wbrepl.host`一定要填写ifconfig显示的IP，即下图2号位置的ip，如果是自己用vmware创建的虚拟机一般1号位置和2号位置的ip都是一样的，但是像我们自己购买的服务器，一般是不一致的
+
+
+![img_4.png](img_4.png)
+
 
 ### 启动你的springboot工程 
 * 本地启动你的工程(配置文件请采用 [ 情况一 ] )
@@ -107,7 +115,10 @@ __[更好的文档阅读体验](https://dododcdc.github.io/wbrepl-spring-boot-st
   * 如果你是本地启动的springboot工程：`lein repl :connect 127.0.0.1:55555`
   * 如果你是将springboot工程部署到远程服务器：`lein repl :connect 172.16.20.44:55555`
  
-  > 注意：host和port一定要和你的配置文件相同
+  > 注意：如果你的远程服务器是下图这样的情况，暴露出来的ip和网卡的ip不一致，那么你配置文件里面的ip请填写2号位置，连接时ip请填写1号位置，例如下图这样我的配置文件中`wbrepl.host=10.0.22.2` 我连接时就用 `lein repl :connect 157.52.*.*:55555`(出于安全考虑部分用*代替)
+
+ ![img_4.png](img_4.png)
+
 
 连接成功后会如下图
 
